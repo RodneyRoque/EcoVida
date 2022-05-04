@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-size: cover;
+    background-image: url(Imagens/BackgroundArara.jpg);
+    background-attachment: fixed;
+}
+
+
+/*CABEÇA DO SITE*/
+.cabeca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.setinha{
+    color: black;
+    font-size: 44px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.setinha:hover{
+    color: #4a9b27;
+}
+
+.cabeca-logo {
+    height: 150px;
+}
+
+.cabeca-menu {
+    display: flex;
+    gap: 32px;
+    padding: 25px;
+}
+
+.cabeca-menu-index {
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cabeca-menu a{
+    transition: 0.5s;
+}
+
+.cabeca-menu a:hover {
+    color: #4a9b27;
+    font-size: 22px;
+}
+/*************CABEÇA DO SITE*****************/
+
+/*CORPO DO SITE*/
+.corpo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.download-area{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+    border:15px solid #4a9b27;
+    border-style: groove;
+    border-radius: 25px;
+}
+
+.download-area img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.download-area h4{
+    font-family: 'Sarala', sans-serif;
+    font-size: 23px;
+}
+
+.download-area button{
+    width: 40%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #4a9b27;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Sarala', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.download-area button:hover{
+    background-color: white;
+}
+/***********CORPO DO SITE************/
+
+/*RODAPÉ*/
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4a9b27;
+    background: linear-gradient( rgba(74,155,39,0.6348914565826331), rgba(74,155,39,0.7133228291316527)),url(Imagens/Rodapéfavela.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px;
+    background-position: center;
+    margin-top: 250px;
+    border-top: 0.4px solid white;
+    border-bottom: 0.4px solid white;
+}
+
+.rodape-texto {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.rodape img{
+    width: 200px;
+}
+
+.rodape-sociais{
+    display: block;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.rodape-sociais img{
+    margin-top: 25px;
+    width: 50px;
+    transition: 0.5s;
+}
+
+.rodape-sociais img:hover{
+    background-color: white;
+    border-radius: 50px;
+}
+/*************RODAPÉ****************/
+
+@media screen and (max-width:1015px){
+    .rodape{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape img{
+        margin-top: 90px;
+    }
+
+    .rodape h5{
+        text-align: center;
+    }
+
+    .download-area{
+        width: 100%;
+    }
+}
