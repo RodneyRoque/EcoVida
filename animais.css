@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Righteous&family=Sarala&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -57,10 +57,6 @@ body {
     transition: 0.5s;
 }
 
-.cabeca-menu a:hover {
-    color: #4a9b27;
-    font-size: 22px;
-}
 /*************CABEÇA DO SITE*****************/
 
 /*CORPO DO SITE*/
@@ -72,7 +68,7 @@ body {
 }
 
 .corpo h1{
-    color: white;
+    color: black;
     font-family: 'Righteous';
 }
 
